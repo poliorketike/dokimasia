@@ -66,15 +66,15 @@ E é por isso que uma palavra só nomeia as quatro camadas: **elas são os quatr
 
 <img src="art/raio.svg" width="100%" alt="o raio de luz subindo do ápice">
 
-<img src="cartas/d0-yryapu.webp" width="215" alt="ΥΡΥΑΠΥ">
+<img src="cartas/d0-yryapu.webp" width="186" alt="ΥΡΥΑΠΥ — o som da água">
 
-<img src="cartas/d1-palamedes.webp" width="196" alt="ΠΑΛΑΜΗΔΗΣ">&nbsp;&nbsp;<img src="cartas/q2-verbum.webp" width="196" alt="ΛΟΓΟΣ">
+<img src="cartas/d1-palamedes.webp" width="186" alt="ΠΑΛΑΜΗΔΗΣ — o gnômon">&nbsp;<img src="cartas/q2-verbum.webp" width="186" alt="ΛΟΓΟΣ — verbum">
 
-<img src="cartas/q0-poliorketikos.webp" width="172" alt="ΠΟΛΙΟΡΚΗΤΙΚΟΣ">&nbsp;&nbsp;<img src="cartas/q1-regnum.webp" width="172" alt="ΒΑΣΙΛΕΙΑ">&nbsp;&nbsp;<img src="cartas/q3-phanes.webp" width="172" alt="ΦΑΝΗΣ">
+<img src="cartas/q0-poliorketikos.webp" width="186" alt="ΠΟΛΙΟΡΚΗΤΙΚΟΣ">&nbsp;<img src="cartas/q1-regnum.webp" width="186" alt="ΒΑΣΙΛΕΙΑ — regnum">&nbsp;<img src="cartas/q3-phanes.webp" width="186" alt="ΦΑΝΗΣ">
 
 </div>
 
-**Seis cartas, em 1 · 2 · 3** — e o arranjo não é estético, é a arquitetura:
+**Seis cartas do mesmo tamanho, em 1 · 2 · 3** — e o arranjo não é estético, é a arquitetura:
 
 | fileira | quem | o que faz |
 |---|---|---|
