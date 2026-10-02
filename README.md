@@ -67,11 +67,15 @@ E é por isso que uma palavra só nomeia as quatro camadas: **elas são os quatr
 
 <div align="center">
 
-<img src="av/grafo.gif" width="100%" alt="o grafo girando, com a água correndo pelas ligações">
+<img src="av/grafo.gif" width="100%" alt="o grafo, com a ficha de cada nó clicado">
 
-**[▶ o vídeo com áudio (24 s, MP4)](av/grafo.mp4)** · **[🎧 só a sonificação (MP3)](av/grafo.mp3)**
+**[▶ o vídeo com áudio (39 s, MP4)](av/grafo.mp4)** · **[🎧 só a sonificação (MP3)](av/grafo.mp3)**
 
 </div>
+
+No vídeo, **sete nós são abertos um a um** e a ficha de cada um é percorrida: o tipo da página, o
+caminho no reino, a regra, o porquê, as fontes com endereço, as entidades e com quem ela se liga.
+É o que o grafo existe para dar — o desenho é o índice, a ficha é o conteúdo.
 
 O GIF é mudo — o formato não carrega áudio. **O MP4 tem o som do grafo**, e o MP3 é a sonificação
 sozinha, para ouvir sem a imagem.
@@ -126,6 +130,68 @@ A partitura está em [`av/set-partitura.py`](av/set-partitura.py).
 | 54 s | cachoeira · volta ao padrão |
 
 </details>
+
+
+### hitech-set — o grafo a 189 BPM
+
+<div align="center">
+<img src="av/hitech-set.gif" width="100%" alt="o hitech-set no disco hiperbólico">
+
+**[▶ 80 s com áudio](av/hitech-set.mp4)** · **[🎧 só o áudio](av/hitech-set.mp3)**
+</div>
+
+Hi-tech psytrance construído a partir do grafo, com **três números organizando tudo** — e cada um
+entra pela propriedade que ele de fato tem, não pela que soa bem.
+
+#### 142857 — agora sim
+
+Quando o campo de fluxo precisou espalhar fases, **142857 não serviu**: a propriedade dele não é
+distribuição. Aqui é outra pergunta, e é exatamente a dele.
+
+142857 é o período de 1/7, e seus múltiplos 1 a 6 são **rotações dos mesmos dígitos**:
+
+```
+1 × 142857 = 142857          4 × = 571428
+2 ×        = 285714          5 ×  = 714285
+3 ×        = 428571          6 ×  = 857142
+7 ×        = 999999   ← o ciclo quebra, e todos os dígitos saturam juntos
+```
+
+Isso vira a estrutura rítmica: **seis compassos, cada um com uma rotação da máscara** de acentos, e
+o **sétimo é o drop** — porque 7 × 142857 = 999999 e todas as células saturam ao mesmo tempo. O
+drop não foi colocado ali por gosto: ele **é** a sétima linha da tabela.
+
+#### 189 BPM
+
+**7 × 27**, e 27 = 1+4+2+8+5+7 — a soma dos dígitos. Cai dentro da faixa do hi-tech (170–200) sem
+ter sido escolhido por ouvido. Medido de volta no sinal por autocorrelação do envelope: **189,0 BPM**.
+
+#### 6 contra 16
+
+A máscara tem 6 células; o compasso tem 16 semicolcheias. Elas só voltam a casar a cada **48 passos**
+(3 compassos), e com o ciclo de 7 compassos por cima o alinhamento completo leva **336 passos — 21
+compassos**. O polirritmo não foi programado: é o que os dois números produzem sozinhos.
+
+#### A cor, e a afinação
+
+Raga **Bhairav** — S r G m P d N, semitons 0,1,4,5,7,8,11 — sobre um bordão de **Sa e Pa**. O
+tanpura toca na ordem clássica (Pa Sa Sa Sa) com as parciais que fazem o *jivari*. As razões são de
+inteiros pequenos — **3/2, 9/8** — que são as divisões do monocórdio. A cor indiana vem daí, e não
+de um sample.
+
+#### E o grafo, que é o insumo
+
+- **grau da página → degrau da raga** (o hub é Sa: a página mais ligada é a tônica);
+- **nível no BFS → oitava**, e qual voz toca em cada passo;
+- **índice do nó → panorâmica**;
+- **vigor do campo de fluxo → abertura do filtro do baixo**.
+
+O desenho acompanha: o **disco hiperbólico** com a curvatura saltando para 3,2 nos drops, o período
+da água travado em **um compasso** (1,270 s) e metade disso no drop, e os oito registros entrando e
+saindo conforme o dígito da máscara.
+
+A partitura está em [`av/hitech-partitura.py`](av/hitech-partitura.py) — **uma só, lida pelos dois
+lados**, como as outras.
 
 
 ### Os três modelos
