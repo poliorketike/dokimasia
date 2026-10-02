@@ -1,5 +1,11 @@
 <div align="center">
 
+**🌐 Português** · [English](README.en.md) · [Español](README.es.md) · [中文](README.zh.md)
+
+</div>
+
+<div align="center">
+
 <img src="art/dokimasia.jpeg" width="100%" alt="ΔΟΚΙΜΑΣΙΑ — o escrutínio, e o que ele revela">
 
 # ΔΟΚΙΜΑΣΙΑ · dokimasía
