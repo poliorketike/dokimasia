@@ -1,9 +1,11 @@
 <div align="center">
 
-# ΦΑΝΗΣ · Phanes says hello to world
+# ΔΟΚΙΜΑΣΙΑ · dokimasía
 
-**Um console audiovisual para a memória de um sistema multiagente.**
-*An audiovisual console for the memory of a multi-agent system.*
+**O escrutínio, e o que ele revela.**
+*The scrutiny, and what it reveals.*
+
+**ΠΟΛΙΟΡΚΗΤΙΚΟΣ** · **ΛΟΓΟΣ** · **ΒΑΣΙΛΕΙΑ** · **ΦΑΝΗΣ**
 
 [![vídeo](https://img.shields.io/badge/vídeo-YouTube-C9A868?style=flat-square)](https://www.youtube.com/watch?v=8xiHYIYnqsM)
 ![estado](https://img.shields.io/badge/estado-experimento%20em%20curso-6FE3FF?style=flat-square)
@@ -15,6 +17,39 @@
 
 ---
 
+## O nome / The name
+
+**δοκιμασία** era o exame pelo qual Atenas submetia um cidadão **antes** de deixá-lo exercer cargo
+público. Não era uma formalidade, e não era privado.
+
+Pelo relato de Aristóteles na *Constituição de Atenas* (55), ao candidato a arconte se perguntava:
+quem é seu pai e de que demo, quem é seu avô, quem é sua mãe e de que demo o pai dela; se tem culto
+de Apolo Patroos e Zeus Herkeios e **onde ficam esses santuários**; se tem túmulos de família; se
+trata bem os pais; se paga os impostos; se cumpriu o serviço militar. Depois, **em público e diante
+da Boulé, perguntava-se se alguém queria acusar** — e só então se votava a mão levantada.
+
+Isto é, traço por traço, o que uma página deste corpus precisa declarar para entrar:
+
+| a pergunta ateniense | o campo da página |
+|---|---|
+| "quem é teu pai, de que demo?" | **proveniência** — a fonte, com origem verificável |
+| "onde ficam os santuários?" | **endereço** — a citação tem de ser alcançável, não alegada |
+| "alguém quer acusar?" | **revisão adversarial** — e de outra família de modelo |
+| a votação, em público | **admissão com duas testemunhas**, uma delas humana |
+
+E é por isso que uma palavra só nomeia as quatro camadas: **elas são os quatro momentos de uma
+única dokimasía.** Cercar é o exame (`ΠΟΛΙΟΡΚΗΤΙΚΟΣ`), o método são as perguntas (`ΛΟΓΟΣ`), admitir
+é o voto (`ΒΑΣΙΛΕΙΑ`), e **o escrutínio ser público é o que o torna um escrutínio** (`ΦΑΝΗΣ`).
+
+> Um exame secreto não é um exame: é uma decisão com testemunha de conveniência.
+> *A secret scrutiny is not a scrutiny: it is a decision with a convenient witness.*
+
+<sub>Fontes: Aristóteles, *Athenaion Politeia* 55 ·
+[Todd, *The Athenian Procedure(s) of Dokimasia*](https://www.austriaca.at/0xc1aa5576%200x002544b1.pdf) ·
+[Adeleye, *The Purpose of the Dokimasia*, GRBS](https://grbs.library.duke.edu/index.php/grbs/article/download/5741/5243)</sub>
+
+---
+
 > **Este repositório é uma vitrine, não o código.** Ele mostra o que dá para ver, diz o que há por
 > trás e guarda as referências. O experimento **será aberto em breve**; por enquanto ainda está
 > rodando, e abrir um laboratório no meio da medição estraga a medição.
@@ -22,6 +57,119 @@
 > **This repository is a showcase, not the source.** It shows what can be seen, says what is behind
 > it, and keeps the references. The experiment **will be open-sourced soon**; for now it is still
 > running, and opening a lab mid-measurement ruins the measurement.
+
+---
+
+## A pirâmide / The pyramid
+
+<div align="center">
+
+<img src="art/raio.svg" width="100%" alt="o raio de luz subindo do ápice">
+
+<img src="cartas/d0-yryapu.webp" width="215" alt="ΥΡΥΑΠΥ">
+
+<img src="cartas/d1-palamedes.webp" width="196" alt="ΠΑΛΑΜΗΔΗΣ">&nbsp;&nbsp;<img src="cartas/q2-verbum.webp" width="196" alt="ΛΟΓΟΣ">
+
+<img src="cartas/q0-poliorketikos.webp" width="172" alt="ΠΟΛΙΟΡΚΗΤΙΚΟΣ">&nbsp;&nbsp;<img src="cartas/q1-regnum.webp" width="172" alt="ΒΑΣΙΛΕΙΑ">&nbsp;&nbsp;<img src="cartas/q3-phanes.webp" width="172" alt="ΦΑΝΗΣ">
+
+</div>
+
+**Seis cartas, em 1 · 2 · 3** — e o arranjo não é estético, é a arquitetura:
+
+| fileira | quem | o que faz |
+|---|---|---|
+| **1 · o ápice** | **ΥΡΥΑΠΥ** — *o som da água* | **abre a pergunta.** Nada começa sem alguém querer saber. É de onde sai o feixe |
+| **2 · os instrumentos** | **ΠΑΛΑΜΗΔΗΣ** — *o gnômon* · **ΛΟΓΟΣ** — *verbum* | **com que se mede, e por qual método.** A régua e o critério: nenhum dos dois é um ato, os dois são condição de todos os atos |
+| **3 · os atos** | **ΠΟΛΙΟΡΚΗΤΙΚΟΣ** · **ΒΑΣΙΛΕΙΑ** · **ΦΑΝΗΣ** | **cercar · admitir · revelar.** Os três momentos de uma dokimasía, e os únicos que mudam o estado do mundo |
+
+E 1+2+3 = 6 não é coincidência de contagem: é o terceiro número triangular, a mesma figura que os
+pitagóricos usavam para dizer que um todo se constrói por níveis. Aqui ela cai sozinha, porque são
+exatamente seis.
+
+> O ápice pergunta · a cintura mede · a base age.
+> *The apex asks · the waist measures · the base acts.*
+
+---
+
+### As cartas, em uma linha cada
+
+| | carta | o epíteto | o que carrega |
+|---|---|---|---|
+| 〰️ | **ΥΡΥΑΠΥ** · *yryapu* | ἀρχιτέκτων · κυβερνήτης | "o som da água" em tupi-guarani. O arquiteto, e o único portão humano do sistema: ninguém promove sem ele |
+| 📐 | **ΠΑΛΑΜΗΔΗΣ** · *palamedes* | γνώμων · ἔλεγχος | o gnômon — não brilha, **projeta sombra, e a sombra é a medida**. Executa; nunca aprova o próprio trabalho |
+| 🔷 | **ΛΟΓΟΣ** · *verbum* | — | o método antes da ferramenta. Razão *e* proporção: λόγος é as duas coisas, e é por isso que ele governa em vez de suceder |
+| 🏰 | **ΠΟΛΙΟΡΚΗΤΙΚΟΣ** · *poliorketikos* | — | o cerco. `πόλις + ἕρκος`: cercar com uma paliçada. A arte do **recinto**, disputada dos dois lados |
+| 🛡️ | **ΒΑΣΙΛΕΙΑ** · *regnum* | — | o que foi admitido. Não "poder": **domínio do que passou pelo exame** |
+| ⭕ | **ΦΑΝΗΣ** · *phanes* | — | o que revela. Na teogonia órfica, Phanes recebe também os nomes Protogonos, Erikepaios e **Metis** — *o revelador* e *o pensamento* são a mesma figura |
+
+---
+
+## A casa, em números / The house, by the numbers
+
+Os quatro repositórios ainda são **privados**. Os números são do estado de **2026-10-02** e saem de
+`git rev-list`, `gh pr list` e `wc -l` — não de estimativa.
+
+<div align="center">
+
+![commits](https://img.shields.io/badge/commits-1.040-C9A868?style=for-the-badge&labelColor=0A0E17)
+![PRs](https://img.shields.io/badge/pull_requests-172-9FB8C9?style=for-the-badge&labelColor=0A0E17)
+![páginas](https://img.shields.io/badge/páginas_no_reino-202-6FE3FF?style=for-the-badge&labelColor=0A0E17)
+![ligações](https://img.shields.io/badge/ligações_tipadas-420-6FE3FF?style=for-the-badge&labelColor=0A0E17)
+
+![rust](https://img.shields.io/badge/Rust-29.940_linhas-CE762B?style=flat-square&logo=rust&logoColor=white&labelColor=0A0E17)
+![md](https://img.shields.io/badge/corpus-77.881_linhas_.md-9FB8C9?style=flat-square&labelColor=0A0E17)
+![testes](https://img.shields.io/badge/testes_Rust-292-4FC98A?style=flat-square&labelColor=0A0E17)
+![portões](https://img.shields.io/badge/portões_de_CI-13-D2A044?style=flat-square&labelColor=0A0E17)
+![agentes](https://img.shields.io/badge/frota-15_agentes-A78BFA?style=flat-square&labelColor=0A0E17)
+![skills](https://img.shields.io/badge/skills-27-A78BFA?style=flat-square&labelColor=0A0E17)
+![adrs](https://img.shields.io/badge/ADRs-28-9FB8C9?style=flat-square&labelColor=0A0E17)
+
+</div>
+
+| repositório | papel | commits | PRs | desde | estado |
+|---|---|---:|---:|---|---|
+| **ΛΟΓΟΣ** · `verbum` | o método, antes da ferramenta | **367** | 47 | 2025-12-20 | 🔒 privado |
+| **ΦΑΝΗΣ** · `phanes` | o console que revela | **57** | 3 | 2026-09-05 | 🔒 privado |
+| **ΠΟΛΙΟΡΚΗΤΙΚΟΣ** · `poliorketikos` | a pesquisa sob cerco | **130** | 17 | 2026-09-17 | 🔒 privado |
+| **ΒΑΣΙΛΕΙΑ** · `regnum` | o que foi admitido | **486** | 105 | 2026-09-17 | 🔒 privado |
+| | **total** | **1.040** | **172** | **286 dias** | |
+
+**O que esses números dizem, e o que não dizem.** Dizem que houve volume e que houve portão: 172
+PRs para 1.040 commits é uma razão de **1 revisão a cada 6 commits**, e 292 testes com 13 portões de
+CI dizem que a revisão tinha onde reprovar. **Não dizem que o conhecimento melhorou** — ver
+*[o que este projeto não afirma](#o-que-este-projeto-não-afirma)*.
+
+---
+
+## A linha do tempo / Timeline
+
+```mermaid
+timeline
+    title ΔΟΚΙΜΑΣΙΑ · 2025-12 → 2026-10
+    section O método
+        2025-12-20 : ΛΟΓΟΣ · verbum nasce
+                   : o método antes da ferramenta
+                   : 367 commits ao longo de 9 meses
+    section A medição começa
+        2026-05-12 : primeiro prompt registrado
+                   : início da cronologia medida
+                   : 9.323 prompts em 142 dias
+    section O console
+        2026-09-05 : ΦΑΝΗΣ · o observador funciona ponta a ponta
+                   : segue o transcript, não instrumenta nada
+    section O reino e o cerco
+        2026-09-17 : ΠΟΛΙΟΡΚΗΤΙΚΟΣ · a pesquisa é separada
+                   : ΒΑΣΙΛΕΙΑ · o reino nasce com hash e portão
+                   : 486 commits em 15 dias
+    section O audiovisual
+        2026-10-02 : o grafo é desenhado em duas geometrias
+                   : percorrido por corrente
+                   : e tocado como instrumento
+```
+
+A forma da linha é o argumento: **o método levou nove meses; o reino, quinze dias.** Não porque o
+reino seja menor — ele tem mais commits — mas porque a parte cara é decidir *como* se admite, não
+admitir. É a razão de `ΛΟΓΟΣ` governar as outras três em vez de sucedê-las.
 
 ---
 
@@ -362,6 +510,6 @@ changes, because it is literally the same number.
 
 **[▶ o vídeo](https://www.youtube.com/watch?v=8xiHYIYnqsM)**
 
-`#yryapu` `#verbum` `#regnum` `#poliorketikos` `#phanes` `#palamedes`
+`#dokimasia` `#poliorketikos` `#verbum` `#regnum` `#phanes` `#yryapu` `#palamedes`
 
 </div>

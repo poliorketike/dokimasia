@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Um raio de luz subindo do ápice da pirâmide">
+  <defs>
+    <linearGradient id="feixe" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0"    stop-color="#EAFCFF" stop-opacity="0.85"/>
+      <stop offset="0.10" stop-color="#6FE3FF" stop-opacity="0.45"/>
+      <stop offset="0.45" stop-color="#6FE3FF" stop-opacity="0.13"/>
+      <stop offset="1"    stop-color="#6FE3FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="feixe2" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0"    stop-color="#C9A868" stop-opacity="0.5"/>
+      <stop offset="0.5"  stop-color="#C9A868" stop-opacity="0.09"/>
+      <stop offset="1"    stop-color="#C9A868" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"   stop-color="#EAFCFF" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#6FE3FF" stop-opacity="0.25"/>
+      <stop offset="1"   stop-color="#6FE3FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- o céu: pontos esparsos, para o feixe ter para onde ir -->
+  <g fill="#9FB8C9" opacity="0.5">
+    <circle cx="180" cy="48" r="1.4"/><circle cx="320" cy="96" r="1"/><circle cx="430" cy="30" r="1.2"/>
+    <circle cx="760" cy="62" r="1.3"/><circle cx="905" cy="36" r="1"/><circle cx="1030" cy="104" r="1.5"/>
+    <circle cx="112" cy="140" r="1"/><circle cx="1098" cy="56" r="1.1"/><circle cx="640" cy="22" r="1"/>
+    <circle cx="520" cy="130" r="1"/><circle cx="880" cy="150" r="1.2"/><circle cx="250" cy="186" r="1"/>
+  </g>
+
+  <!-- o feixe largo e o núcleo: um raio tem borda difusa e miolo aceso -->
+  <path d="M600 338 L672 0 L528 0 Z" fill="url(#feixe2)"/>
+  <path d="M600 338 L634 0 L566 0 Z" fill="url(#feixe)"/>
+  <path d="M600 338 L609 0 L591 0 Z" fill="#EAFCFF" opacity="0.30"/>
+  <ellipse cx="600" cy="332" rx="118" ry="30" fill="url(#brilho)"/>
+
+  <!-- o ápice da pirâmide: só a ponta, porque as cartas abaixo são o resto dela -->
+  <path d="M600 258 L706 340 L494 340 Z" fill="#0A0E17" fill-opacity="0.55"
+        stroke="#C9A868" stroke-opacity="0.65" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M600 258 L600 340" stroke="#C9A868" stroke-opacity="0.22" stroke-width="1"/>
+  <path d="M547 299 L653 299" stroke="#C9A868" stroke-opacity="0.22" stroke-width="1"/>
+  <circle cx="600" cy="262" r="3.4" fill="#EAFCFF" opacity="0.95"/>
+
+  <text x="600" y="214" fill="#C9A868" fill-opacity="0.9" font-family="Georgia,serif"
+        font-size="20" letter-spacing="7" text-anchor="middle">ΔΟΚΙΜΑΣΙΑ</text>
+  <text x="600" y="238" fill="#9FB8C9" fill-opacity="0.75" font-family="monospace"
+        font-size="10.5" letter-spacing="3.4" text-anchor="middle">O ESCRUTINIO, E O QUE ELE REVELA</text>
+</svg>
