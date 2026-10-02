@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="art/dokimasia.jpeg" width="100%" alt="ΔΟΚΙΜΑΣΙΑ — el escrutinio, y lo que revela">
+<img src="art/astraldokimasia.jpg" width="100%" alt="ΔΟΚΙΜΑΣΙΑ — el escrutinio, y lo que revela">
 
 # ΔΟΚΙΜΑΣΙΑ · dokimasía
 

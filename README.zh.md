@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="art/dokimasia.jpeg" width="100%" alt="ΔΟΚΙΜΑΣΙΑ — 审查，以及它所揭示的">
+<img src="art/astraldokimasia.jpg" width="100%" alt="ΔΟΚΙΜΑΣΙΑ — 审查，以及它所揭示的">
 
 # ΔΟΚΙΜΑΣΙΑ · dokimasía
 
