@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="art/dokimasia.jpeg" width="100%" alt="ΔΟΚΙΜΑΣΙΑ — o escrutínio, e o que ele revela">
+
 # ΔΟΚΙΜΑΣΙΑ · dokimasía
 
 **O escrutínio, e o que ele revela.**
@@ -12,6 +14,7 @@
 ![licença](https://img.shields.io/badge/código-ainda%20fechado-9FB8C9?style=flat-square)
 
 ▶ **[Assista ao vídeo](https://www.youtube.com/watch?v=8xiHYIYnqsM)** · *[Watch the video](https://www.youtube.com/watch?v=8xiHYIYnqsM)*
+📖 **[A wiki — a arquitetura inteira, página por página](https://github.com/poliorketike/dokimasia/wiki)**
 
 </div>
 
@@ -666,7 +669,7 @@ changes, because it is literally the same number.
 *O experimento ainda está rodando. Abrir o laboratório no meio da medição estraga a medição.*
 *The experiment is still running. Opening the lab mid-measurement ruins the measurement.*
 
-**[▶ o vídeo](https://www.youtube.com/watch?v=8xiHYIYnqsM)**
+**[▶ o vídeo](https://www.youtube.com/watch?v=8xiHYIYnqsM)** · **[📖 a wiki](https://github.com/poliorketike/dokimasia/wiki)**
 
 `#dokimasia` `#poliorketikos` `#verbum` `#regnum` `#phanes` `#yryapu` `#palamedes`
 
