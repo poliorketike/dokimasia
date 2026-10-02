@@ -1,7 +1,15 @@
 # okf/ — quatro páginas, como amostra
 
-**Isto é um spoiler, não o corpus.** O reino tem 202 páginas; aqui estão quatro, escolhidas porque
+**Isto é um spoiler, não o corpus.** O reino tem 202 páginas; aqui estão cinco, escolhidas porque
 mostram a *forma* sem entregar o conteúdo.
+
+| | página |
+|---|---|
+| 01 | a tese: conhecimento que não pode cair |
+| 02 | a lei do portão, e a etimologia que a sustenta |
+| 03 | as cinco classes epistêmicas |
+| 04 | o experimento em curso, e o que ele não verificou |
+| 05 | **a convergência informacional** — a doutrina que liga a pesquisa ao operacional |
 
 **OKF** (*Open Knowledge Format*, v0.2) é o formato em que cada unidade de conhecimento desta casa é
 escrita. A regra que o define cabe numa linha:

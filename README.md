@@ -104,6 +104,90 @@ exatamente seis.
 
 ---
 
+## Depois do cerco: o operacional / After the siege: the operational layer
+
+O cerco não termina em relatório. Ele termina em **obra** — e o elo entre os dois é o que esta casa
+chama de **convergência informacional**.
+
+### O problema
+
+Um módulo complexo tem 30 tarefas. Cada uma exige **entender a anatomia** antes de poder operar:
+onde as coisas estão, o que depende do quê, qual invariante não pode ser quebrada. Suponha duas
+horas para isso. Trinta agentes em leque: **sessenta horas só de compreensão**, para trinta minutos
+de execução.
+
+Conhecimento, ao contrário de trabalho, **não se divide em partes**. Paralelizar a execução faz
+sentido; paralelizar a compreensão é pagar N vezes por um bem que não é rival.
+
+```mermaid
+flowchart LR
+    subgraph ING["leque ingênuo · N × (C + E)"]
+        direction TB
+        I1["agente 1<br/>lê tudo · 2 h"] --> X1["tarefa 1"]
+        I2["agente 2<br/>lê tudo · 2 h"] --> X2["tarefa 2"]
+        I3["… agente 30<br/>lê tudo · 2 h"] --> X3["tarefa 30"]
+    end
+    subgraph CON["convergência · C + A + N × (E + ε)"]
+        direction TB
+        K["ΚΑΤΑΣΚΟΠΟΣ<br/>o batedor paga C uma vez"] --> AN["ΑΝΑΤΟΜΗ<br/>o artefato convergido"]
+        AN --> E1["ΕΡΓΑ · tarefa 1"]
+        AN --> E2["ΕΡΓΑ · tarefa 2"]
+        AN --> E3["ΕΡΓΑ · tarefa 30"]
+    end
+```
+
+A convergência paga quando **(N − 1)·C > A + N·ε**. Com C em horas e ε em minutos, o equilíbrio cai
+em **N ≈ 2**: a partir de duas tarefas sobre o mesmo terreno, reler o terreno já é desperdício.
+
+### O custo de entrada, medido
+
+O número que torna isso concreto nem é o da anatomia — é o do **simples ato de entrar**:
+
+| | |
+|---|---|
+| sessões com contabilidade de uso | **2.333** |
+| contexto no **primeiro turno**, antes de qualquer trabalho útil | mediana **28.671** tokens · p90 **68.565** |
+| somado em todas as sessões | **84,0 M tokens** |
+| fração desse primeiro turno lida de cache | **34%** |
+
+**84 milhões de tokens apenas para começar** — e isso é o piso, não a anatomia. O cache resolve a
+repetição *dentro* de uma sessão; **entre** sessões quase tudo é pago de novo, e é esse vão que a
+convergência existe para cobrir.
+
+### A doutrina, no vocabulário do cerco
+
+Não se assalta terreno que não foi levantado — e por isso o vocabulário já existia:
+
+| | | |
+|---|---|---|
+| **ΚΑΤΑΣΚΟΠΟΣ** | *kataskopos* | o batedor enviado à frente. **Um**, não trinta. O que ele traz não é opinião: é descrição endereçável |
+| **ΑΝΑΤΟΜΗ** | *anatomḗ* | "corte através". O artefato convergido: dependências, invariantes, onde cortar. **Não é resumo** — resumo é o que se perde; a anatomia é o que permite operar sem reler |
+| **ΕΡΓΑ** | *érga* | as obras. No cerco, as levantadas contra a muralha; aqui, as tarefas reivindicadas e executadas, cada operador sobre a sua |
+
+E o Poliorketikos **já é o planejamento disso**: quando o cerco é bem desenhado, a tarefa chega ao
+operador com o ponto de ruptura já identificado. A pesquisa não é uma etapa separada do trabalho —
+é o que torna o trabalho curto.
+
+### O risco, que é o lado difícil
+
+> **A convergência troca custo por falha correlacionada.**
+
+O leque ingênuo tem uma virtude acidental: trinta leitores independentes **discordam**, e a
+divergência entre eles é um código de correção de erro que ninguém projetou. Um leitor e trinta
+executores não têm isso — **se a anatomia estiver errada, os trinta erram igual, na mesma direção,
+com confiança.**
+
+É a mesma estrutura do gargalo 4 desta casa (*revisores todos da mesma família de modelo*), num
+nível diferente. Reduzir a diversidade de leitura reduz o custo **e** reduz a detecção, e os dois
+caem juntos. Daí os quatro portões — incluindo o quarto, que é o que impede a doutrina de ser
+inverificável: **uma das N tarefas é executada sem a anatomia, lida da fonte.** Se as duas
+convergirem, a compressão é fiel; se divergirem, o que se economizou era dívida.
+
+📄 A doutrina inteira, com a conta e os quatro portões:
+**[`okf/05-convergencia-informacional.md`](okf/05-convergencia-informacional.md)**
+
+---
+
 ## A casa, em números / The house, by the numbers
 
 Os quatro repositórios ainda são **privados**. Os números são do estado de **2026-10-02** e saem de
