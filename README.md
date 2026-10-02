@@ -63,6 +63,38 @@ E é por isso que uma palavra só nomeia as quatro camadas: **elas são os quatr
 
 ---
 
+## Em movimento, e com som / In motion, with sound
+
+<div align="center">
+
+<img src="av/grafo.gif" width="100%" alt="o grafo girando, com a água correndo pelas ligações">
+
+**[▶ o vídeo com áudio (24 s, MP4)](av/grafo.mp4)** · **[🎧 só a sonificação (MP3)](av/grafo.mp3)**
+
+</div>
+
+O GIF é mudo — o formato não carrega áudio. **O MP4 tem o som do grafo**, e o MP3 é a sonificação
+sozinha, para ouvir sem a imagem.
+
+> A trilha do MP4 **não é uma trilha**: é o grafo tocado. Foi renderizada fora do navegador com o
+> **mesmo mapeamento** que o console usa ao vivo — grau → altura (o hub é a tônica e o grave),
+> nível no BFS → oitava e passo do compasso, posição → estéreo, escala dórica sobre D2 (73,42 Hz),
+> compasso de 2,6 s dividido em cinco fases. O que muda é só o renderizador. Os quatro motores que
+> se ouvem em sequência são **cachoeira** (ruído por passa-banda), **cordas**, **sino** (FM 1:√2) e
+> **vidro** (parciais 1 : 2,76 : 5,40).
+
+### O disco de Poincaré, em movimento
+
+<div align="center">
+<img src="av/poincare.gif" width="100%" alt="o disco hiperbólico, com as geodésicas">
+</div>
+
+As arestas são **geodésicas** — arcos ortogonais ao horizonte. A corrente corre por dentro delas, e
+por isso curva junto. No vídeo dá para ver a **curvatura κ** sendo levada de 0,8 a 3,2: o miolo
+abre, a periferia encosta no horizonte, e nenhum ponto o alcança.
+
+---
+
 ## A pirâmide / The pyramid
 
 <div align="center">
@@ -404,6 +436,8 @@ E os dois que não são camada de software, porque são **quem opera**:
 #### O grafo da memória, em duas geometrias
 
 <p align="center"><img src="prints/02-grafo.webp" width="100%" alt="O grafo da memória"></p>
+
+*(nos prints: **modo operacional** — sem o campo e sem o baralho, só a grade atrás)*
 
 203 páginas, **420 ligações tipadas**, 27 ilhadas e **24 fantasmas** — alvos citados que não
 existem neste repositório, contados na cara em vez de escondidos. O layout é por forças em 3D com
