@@ -89,6 +89,10 @@ exatamente seis.
 > O ápice pergunta · a cintura mede · a base age.
 > *The apex asks · the waist measures · the base acts.*
 
+E a pirâmide tem um eixo que não aparece nela: **φιλομαθής → φιλοπράκτωρ**, de cima para baixo.
+O ápice é puro *amar saber*; a base é puro *amar fazer*; e a cintura é onde um vira o outro —
+que é exatamente por que a medida mora lá. [Ver o eixo inteiro ↓](#o-eixo-que-atravessa-tudo-φιλομαθής--φιλοπράκτωρ)
+
 ---
 
 ### As cartas, em uma linha cada
@@ -185,6 +189,76 @@ convergirem, a compressão é fiel; se divergirem, o que se economizou era dívi
 
 📄 A doutrina inteira, com a conta e os quatro portões:
 **[`okf/05-convergencia-informacional.md`](okf/05-convergencia-informacional.md)**
+
+---
+
+## O eixo que atravessa tudo: φιλομαθής ↔ φιλοπράκτωρ
+
+As quatro camadas são **atos**. O dueto são **instrumentos**. E há um terceiro eixo, que não é nem
+um nem outro: duas **disposições** — em grego, literalmente dois adjetivos — que todo membro da casa
+carrega em tensão.
+
+> ⚠️ `φιλομαθής` é atestado e clássico. **`φιλοπράκτωρ` não é um composto grego atestado** — é
+> neologismo moderno. `πράκτωρ` existe (*o que faz, o executor*); `φιλοπράγμων` existe mas tende ao
+> pejorativo (*intrometido*); o atestado para "amante do trabalho" é `φιλόπονος`. Usamos
+> `φιλοπράκτωρ` por precisão semântica e **marcamos como composição moderna onde ela aparece**.
+> Nome bonito com etimologia inventada seria o defeito que esta casa existe para pegar.
+
+### A tensão, nos dois sentidos
+
+| sozinha | o que acontece |
+|---|---|
+| **φιλομαθής** sem φιλοπράκτωρ | pesquisa infinita. O cerco nunca termina; a muralha é estudada até ruir sozinha |
+| **φιλοπράκτωρ** sem φιλομαθής | execução sobre mapa não examinado. São os trinta agentes errando na mesma direção |
+
+A tensão **não se resolve escolhendo um lado** — resolve-se institucionalmente, e o pipeline
+inteiro é essa resolução:
+
+```
+                    φιλομαθής ──────────────────────► φιλοπράκτωρ
+
+ΠΟΛΙΟΡΚΗΤΙΚΟΣ    ████████████████░░░░░░░░░░░░░░░░     estratégico e tático
+  ΚΑΤΑΣΚΟΠΟΣ     ██████████████████████░░░░░░░░░░     o máximo de φιλομαθής
+    ΑΝΑΤΟΜΗ      ░░░░░░░ ◄── a dobradiça ──► ░░░░     onde um vira o outro
+      ΕΡΓΑ       ░░░░░░░░░░░░██████████████████████   o máximo de φιλοπράκτωρ
+    ΒΑΣΙΛΕΙΑ     ████████░░░░░░░░░░░░░░████████████   admitir é julgar e decidir
+      ΦΑΝΗΣ      ████████████████████████████████████ revelar serve aos dois
+```
+
+**A ἀνατομή é a dobradiça** — o único artefato cuja função é *converter uma disposição na outra*:
+tudo que o batedor aprendeu entra como aprendizado e sai como instrução. Por isso ela passa por
+dokimasía, e por isso o operador tem **dever de divergir**.
+
+E é por isso que a orquestração **não é uma fase**: durante o operacional, quem orquestra continua
+φιλομαθής — lê o que os operadores devolvem, e é essa leitura que detecta a anatomia errada antes
+que as trinta obras subam tortas.
+
+### A razão, medida
+
+Se as disposições são reais, deixam rastro. O rastro é a proporção entre **ler** e **agir** nas
+58.337 chamadas de ferramenta registradas. O classificador está declarado, para quem quiser refazer
+a conta.
+
+| | ler | agir | razão |
+|---|---:|---:|---|
+| ferramentas inequívocas | 8.380 | 6.363 | **1,32 : 1** — lê um pouco mais do que faz |
+| com `Bash` (43.595 chamadas) | 13.834 | 44.503 | **0,31 : 1** — três atos para cada leitura |
+| por sessão (≥20 chamadas, n=96) | | | mediana **13%** de leitura · p90 **46%** |
+
+**As duas linhas discordam por 4,3× — e a discordância é o achado.** Olhar o que o `Bash` faz
+desfaz a leitura fácil: **18% de tudo que ele executa é medir e testar** (`cargo test`, `playwright`,
+`--check`, `wc -l`).
+
+E medir não é nem aprender nem fazer. É o terceiro gesto, o do **gnômon**:
+
+> As duas disposições são um par; o par precisa de uma dobradiça para não virar oscilação.
+> A dobradiça é a **medida** — e é por isso que **ΠΑΛΑΜΗΔΗΣ está na cintura da pirâmide**, ao lado
+> do método, e não na base com os atos.
+
+A página também diz o que a medida **não** diz: que 0,31:1 pode ser disciplina ou pode ser pressa,
+e que ela não tem como distinguir. O experimento que distinguiria está no `refutes`.
+
+📄 **[`okf/06-filomathes-filopraktor.md`](okf/06-filomathes-filopraktor.md)**
 
 ---
 
