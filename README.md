@@ -128,15 +128,53 @@ A partitura está em [`av/set-partitura.py`](av/set-partitura.py).
 </details>
 
 
-### O disco de Poincaré, em movimento
+### Os três modelos
+
+O mesmo grafo, em três geometrias. **[▶ os três em sequência (35 s)](av/modelos.mp4)**
+
+| | o que é |
+|---|---|
+| `◻ euclidiano` | a projeção em perspectiva: distância na tela é distância no espaço |
+| `◎ disco projetado` | a mesma nuvem 3D levada ao disco — **ainda há câmera e profundidade** |
+| `⊚ disco hiperbólico` | **árvore radial calculada no plano hiperbólico** — sem câmera, sem profundidade |
 
 <div align="center">
-<img src="av/poincare.gif" width="100%" alt="o disco hiperbólico, com as geodésicas">
+<img src="av/poincare.gif" width="49%" alt="o disco projetado">
+<img src="av/hiperbolico.gif" width="49%" alt="o disco hiperbólico nativo">
 </div>
 
+<div align="center"><sub><b>esquerda</b>: o disco projetado · <b>direita</b>: o disco nativo em 2D</sub></div>
+
+#### O disco projetado
+
 As arestas são **geodésicas** — arcos ortogonais ao horizonte. A corrente corre por dentro delas, e
-por isso curva junto. No vídeo dá para ver a **curvatura κ** sendo levada de 0,8 a 3,2: o miolo
-abre, a periferia encosta no horizonte, e nenhum ponto o alcança.
+por isso curva junto. Dá para ver a **curvatura κ** sendo levada de 0,8 a 3,2: o miolo abre, a
+periferia encosta no horizonte, e nenhum ponto o alcança.
+
+Mas ele ainda é **uma nuvem tridimensional vista de um ângulo**. Bonito e correto — e não é o
+desenho em que a propriedade do modelo aparece.
+
+#### O disco hiperbólico, nativo
+
+É a técnica do *hyperbolic browser* (Lamping, Rao & Pirolli, CHI 1995): **raiz no centro, cada
+nível num anel**, e cada nó com uma fatia angular proporcional ao **tamanho da sua subárvore** —
+não ao número de filhos. Senão um ramo de um filho com cem netos receberia a fatia de uma folha, e
+o desenho mentiria sobre onde está a massa do corpus.
+
+**Sem câmera não há profundidade.** O que faz as vezes dela é a distância ao centro, que é o que o
+modelo de fato mede. E girar deixa de mover a câmera: passa a **rodar a volta**, que é o gesto certo
+num disco.
+
+Componentes separados dividem a volta proporcionalmente ao tamanho e começam no primeiro anel, não
+no centro — **o centro é um lugar só**, e dá-lo a um componente diria que ele é a raiz de tudo.
+
+> **Uma correção que a medida obrigou.** Com a profundidade em saltos crus, `tanh(κ·d/2)` satura: o
+> ρ mediano dava **0,976** e o grafo inteiro ficava colado no horizonte — o contrário do que o
+> modelo existe para fazer. Normalizada pelo anel mais fundo, vira a mesma conta do disco projetado
+> e a curvatura volta a mandar. Medido agora: p10 **0,217** · mediana **0,414** · p90 **0,706** ·
+> máximo **0,800**, com 203 de 203 dentro do horizonte.
+
+Os pulsos continuam: água, cachoeiras, campo de fluxo e som **leem a mesma cena** nos três modelos.
 
 ---
 
