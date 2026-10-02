@@ -83,6 +83,51 @@ sozinha, para ouvir sem a imagem.
 > se ouvem em sequência são **cachoeira** (ruído por passa-banda), **cordas**, **sino** (FM 1:√2) e
 > **vidro** (parciais 1 : 2,76 : 5,40).
 
+### O set de um minuto
+
+<div align="center">
+<img src="av/set.gif" width="100%" alt="o set: timbres entrando e saindo, o medieval ligado, as duas ondas">
+
+**[▶ o set completo, 60 s com áudio](av/set.mp4)** · **[🎧 só o áudio](av/set.mp3)**
+</div>
+
+Sessenta segundos tocando o grafo como se toca uma mesa: **timbres entrando e saindo**, a **tônica
+andando pelos graus da dórica** (D2 → F2 → A2 → G2 → D2), o **período** de 2,6 s a 1,4 s e de volta
+a 4,0 s, o **registro** passando de uníssono a quintas e a oitavas — e o **ruído marrom** (12–24 s)
+e o **sequenciador medieval** (30–42 s) entrando pontualmente por cima.
+
+**As duas ondas estão à vista o tempo todo**: no painel da direita, o custo do quadro e o sinal do
+áudio do grafo medido no analisador; no baralho embaixo, a onda do sintetizador quando o ruído ou o
+medieval está ligado.
+
+> **A tônica não é aleatória.** Ela anda pelos graus da escala, então as trocas caem *dentro* dela
+> em vez de cortá-la. "Randomizar" sem escala daria mudança, não modulação.
+
+<details>
+<summary><b>A partitura é uma só, lida pelos dois lados</b></summary>
+
+O navegador executa os eventos enquanto o vídeo grava; o renderizador offline lê **os mesmos**
+eventos para produzir o áudio. É a mesma regra da cena do grafo — *uma leitura, dois consumidores*.
+Se houvesse duas listas, elas divergiriam, e a sincronia passaria a ser sorte.
+
+A partitura está em [`av/set-partitura.py`](av/set-partitura.py).
+
+| t | o que entra |
+|---:|---|
+| 0 s | cachoeira · D2 · período 2,6 s · uníssono |
+| 6 s | + cordas · brilho 1,6 |
+| 12 s | **ruído marrom** · registro em quintas |
+| 18 s | + cristal · F2 · período 1,9 s |
+| 24 s | cristal + sino · brilho 2,4 |
+| 30 s | **medieval** · oitavas · A2 · período 1,4 s |
+| 36 s | sino + vidro + sopro · dispersão 16 ¢ · ressonância 5,0 |
+| 42 s | vidro + sopro · G2 |
+| 48 s | bordão + pulso · D2 · período 4,0 s · uníssono |
+| 54 s | cachoeira · volta ao padrão |
+
+</details>
+
+
 ### O disco de Poincaré, em movimento
 
 <div align="center">
