@@ -154,6 +154,21 @@ seis.
 | 🛡️ | **ΒΑΣΙΛΕΙΑ** · *regnum* | — | lo que fue admitido. No «poder»: **el dominio de lo que pasó el examen** |
 | ⭕ | **ΦΑΝΗΣ** | — | lo que revela. En la teogonía órfica también se le llama Protógonos, Erikepaios y **Metis** |
 
+
+#### Por qué *cerco*, y no sólo *control* — κυβερνητικός · πολιορκητικός
+
+<img src="art/poliorketikos.jpg" width="100%" alt="la sala de operaciones: ΚΑΤΑΣΚΟΠΟΣ, ΑΝΑΤΟΜΗ, ΕΡΓΑ y el ciclo contra el error">
+
+Las dos palabras terminan en **-ικός**, el *arte de*, y nombran la misma dificultad: **actuar sobre un sistema que no se manda**.
+
+**κυβερνητικός** viene de **κυβερνήτης**, el timonel — quien conduce sin ordenar. El mar no obedece, y aun así el barco llega: en cada vuelta **mide la desviación y corrige**. Ésa es la palabra que Ampère tomó en 1834 para *cybernétique*, la ciencia del gobierno, y que Wiener retomó en 1948 — en parte en homenaje al *On Governors* de Maxwell (1868), dejando constancia de que **governor** es la misma palabra corrompida por el latín (`gubernare`). De ahí un cierre que no es juego de palabras: la pantalla de **gobernanza** de ΦΑΝΗΣ y la palabra **cibernética** tienen una sola raíz.
+
+**πολιορκητικός** añade lo que al timón le falta. El mar es indiferente: desvía el barco, pero no lo estudia. La ciudad **responde** — tras el muro hay quien observa el cerco, aprende del intento fallido y cambia la defensa. Eso no es ruido, es **adversario**, y exige que el modelo del otro lado entre *dentro* del ciclo. Por eso la capa de investigación es un sistema adversarial de 64 pares, y no un controlador.
+
+Y aquí la **Ley 2** deja de ser moral y pasa a ser ingeniería: la realimentación negativa exige que el **sensor no sea el actuador**. Un termostato que le preguntara al calefactor la temperatura no regula nada. *"Nadie aprueba lo que produjo"* es esa restricción, dicha para agentes.
+
+→ **[la página completa, con las fuentes y lo que no afirma](https://github.com/poliorketike/dokimasia/wiki/O-kybernetikos-e-o-poliorketikos)**
+
 ---
 
 ## En movimiento, con sonido

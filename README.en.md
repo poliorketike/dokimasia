@@ -157,6 +157,21 @@ The pyramid has an axis that is not drawn in it: **φιλομαθής → φιλ
 | 🛡️ | **ΒΑΣΙΛΕΙΑ** · *regnum* | — | what has been admitted. Not "power": **the domain of what passed the examination** |
 | ⭕ | **ΦΑΝΗΣ** | — | what reveals. In Orphic theogony Phanes is also named Protogonos, Erikepaios and **Metis** — *the revealer* and *thought* are the same figure |
 
+
+#### Why *siege*, and not merely *control* — κυβερνητικός · πολιορκητικός
+
+<img src="art/poliorketikos.jpg" width="100%" alt="the operations room: ΚΑΤΑΣΚΟΠΟΣ, ΑΝΑΤΟΜΗ, ΕΡΓΑ and the loop against error">
+
+Both words end in **-ικός**, the *art of*, and both name the same difficulty: **acting on a system you do not command**.
+
+**κυβερνητικός** comes from **κυβερνήτης**, the helmsman — the one who steers without ordering. The sea does not obey, and the ship arrives anyway: each turn of the loop, he **measures the drift and corrects**. That is the word Ampère took in 1834 for *cybernétique*, the science of government, and that Wiener took back in 1948 — partly in homage to Maxwell's *On Governors* (1868), noting that **governor** is the same word corrupted through Latin (`gubernare`). Hence a closure that is not wordplay: the **governance** screen of ΦΑΝΗΣ and the word **cybernetics** share one root.
+
+**πολιορκητικός** adds what the helm lacks. The sea is indifferent: it pushes the ship, it does not study it. The city **answers back** — behind the wall someone watches the siege, learns from the attempt that failed, and changes the defence. That is not noise, it is an **adversary**, and it requires the model of the other side to sit *inside* the loop. Which is why the research layer is an adversarial system of 64 pairs, not a controller.
+
+And this is where **Law 2** stops being a moral and becomes engineering: negative feedback requires the **sensor not to be the actuator**. A thermostat that asked the heater for the temperature regulates nothing. *"No one approves what they produced"* is that constraint, stated for agents.
+
+→ **[the full page, with sources and what it does not claim](https://github.com/poliorketike/dokimasia/wiki/O-kybernetikos-e-o-poliorketikos)**
+
 ---
 
 ## In motion, with sound

@@ -649,6 +649,22 @@ Um sistema de conhecimento é um sistema de **poder sobre o que é verdade**. Po
 | 🔷 | **ΛΟΓΟΣ** · *verbum* | A palavra: o **método** antes da ferramenta. Fonte com origem, decisão com alternativa, previsão com probabilidade, erro com registro. É o que sobra quando se tira o software. |
 | ⭕ | **ΦΑΝΗΣ** · *phanes* | O console: o que **revela**. Não instrumenta nada, não intercepta nada — segue o que o sistema já escreve em disco e publica. |
 
+
+#### Por que *cerco*, e não só *controle* — κυβερνητικός · πολιορκητικός
+
+<img src="art/poliorketikos.jpg" width="100%" alt="ΠΟΛΙΟΡΚΗΤΙΚΟΣ — a sala de operações: ΚΑΤΑΣΚΟΠΟΣ, ΑΝΑΤΟΜΗ, ΕΡΓΑ e o ciclo contra o erro">
+
+As duas palavras terminam em **-ικός**, a *arte de*, e nomeiam a mesma dificuldade: **agir sobre um sistema que não se comanda**.
+
+**κυβερνητικός** vem de **κυβερνήτης**, o timoneiro — quem conduz sem mandar. O mar não obedece, e mesmo assim o navio chega: a cada volta, ele **mede o desvio e corrige**. Foi essa palavra que Ampère pegou em 1834 para *cybernétique*, a ciência do governo, e que Wiener retomou em 1948 — em parte em homenagem ao *On Governors* de Maxwell (1868), registrando que **governor** é a mesma palavra corrompida pelo latim (`gubernare`). Daí o fecho que não é trocadilho: a tela de **governança** do ΦΑΝΗΣ e a palavra **cibernética** têm uma raiz só.
+
+**πολιορκητικός** acrescenta o que o timão não tem. O mar é indiferente: desvia o navio, mas não o estuda. A cidade **responde** — do outro lado do muro há quem observe o cerco, aprenda com a tentativa que falhou e mude a defesa. Isso não é ruído, é **adversário**, e exige que o modelo do outro lado entre dentro do laço. Por isso a camada de pesquisa é um sistema adversarial de 64 pares, e não um controlador.
+
+E é aqui que a **Lei 2** deixa de ser moral e vira engenharia: realimentação negativa exige que o **sensor não seja o atuador**. Um termostato que perguntasse ao aquecedor qual é a temperatura não regula nada. *"Ninguém aprova o que produziu"* é essa restrição, dita para agentes.
+
+→ **[a página inteira, com as fontes e o que ela não afirma](https://github.com/poliorketike/dokimasia/wiki/O-kybernetikos-e-o-poliorketikos)**
+
+
 E os dois que não são camada de software, porque são **quem opera**:
 
 | | | |
