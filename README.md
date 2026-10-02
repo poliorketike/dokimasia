@@ -200,6 +200,59 @@ A partitura está em [`av/hitech-partitura.py`](av/hitech-partitura.py) — **um
 lados**, como as outras.
 
 
+### A mesa de ondas, e o hitech dentro do console
+
+<div align="center">
+<img src="av/disco-hiperbolico.gif" width="62%" alt="o disco hiperbólico com o hitech rodando">
+<img src="av/mesa.gif" width="26%" alt="a mesa de ondas">
+
+**[▶ 44 s com áudio](av/hitech-disco.mp4)** · **[🎧 só o áudio](av/hitech-set.mp3)**
+</div>
+
+A ideia vem do [**Vital**](https://vital.audio), que é um *wavetable* com **deformação espectral**:
+em vez de escolher uma forma de onda pronta, edita-se o espectro e deformam-se os harmônicos. O que
+esta casa acrescenta é **de onde o espectro vem**.
+
+> ### O espectro não é desenhado: é o **histograma de graus** do grafo.
+
+O harmônico *k* recebe a amplitude da *k*-ésima faixa de grau — quantas páginas têm aquele grau. Um
+corpus com um hub enorme e muitas folhas produz fundamental forte e parciais decrescentes; um corpus
+plano produz outro espectro. **Trocar o corpus troca o timbre** — a onda é uma *leitura* do grafo,
+não um desenho sobre ele. Ela vira `PeriodicWave` e toca no timbre **mesa**, o nono: o único cujo
+espectro muda quando o corpus muda.
+
+Cinco deformações, agindo sobre os **harmônicos** e não sobre o sinal:
+
+| | o que faz |
+|---|---|
+| `direto` | o espectro como o grafo o entrega |
+| `estiro` | o parcial *k* passa a vir de `h[k/fator]` — o *sync*: o espectro sobe sem a fundamental subir |
+| `dobra` | o que passa do teto volta somado — o *fold*, que **cria parcial que não existia** |
+| `espelho` | inverte a inclinação espectral sem mexer na energia total |
+| `ímpares` | peneira os ímpares: timbre oco. A única que **remove** em vez de redistribuir |
+
+No canvas, as barras são o espectro e a linha é a onda resultante — e **a onda desenhada é a que o
+oscilador toca**, porque as fases são todas zero.
+
+#### O sequenciador hitech, com dois padrões
+
+| padrão | o que ele é |
+|---|---|
+| **142857** | os múltiplos 1–6 são **rotações** dos mesmos dígitos e o sétimo é 999999 — ciclo de sete compassos com o drop embutido. **O drop não é escolha: é a sétima linha.** |
+| **φ áureo** | a parte fracionária dos múltiplos da razão áurea é a sequência de **menor discrepância** — nunca repete, nunca agrupa, nunca bate. **Sem ciclo e sem drop.** |
+
+Um é periodicidade com quebra; o outro é equidistribuição sem quebra. **Trocar de padrão troca a
+natureza do groove, não o seu sabor.**
+
+O bumbo tem a queda de altura que o faz soar como bumbo; **o rolo usa a onda da mesa**, então o baixo
+do hitech é literalmente o espectro do corpus. A máscara de 6 células contra as 16 semicolcheias dá o
+polirritmo, que realinha a cada 48 passos.
+
+E **o compasso vira a duração da água**: medido, 189 BPM → `animation-duration` de **1,27 s**. O
+desenho, as cachoeiras, o campo de fluxo e o disco hiperbólico passam a pulsar no tempo do som —
+porque leem o mesmo número.
+
+
 ### Os três modelos
 
 O mesmo grafo, em três geometrias. **[▶ os três em sequência (35 s)](av/modelos.mp4)**
@@ -208,11 +261,11 @@ O mesmo grafo, em três geometrias. **[▶ os três em sequência (35 s)](av/mod
 |---|---|
 | `◻ euclidiano` | a projeção em perspectiva: distância na tela é distância no espaço |
 | `◎ disco projetado` | a mesma nuvem 3D levada ao disco — **ainda há câmera e profundidade** |
-| `⊚ disco hiperbólico` | **árvore radial calculada no plano hiperbólico** — sem câmera, sem profundidade |
+| `⊚ disco hiperbólico` | **árvore construída no plano hiperbólico por translações de Möbius** — sem câmera, sem profundidade |
 
 <div align="center">
 <img src="av/poincare.gif" width="49%" alt="o disco projetado">
-<img src="av/hiperbolico.gif" width="49%" alt="o disco hiperbólico nativo">
+<img src="av/disco-hiperbolico.gif" width="49%" alt="o disco hiperbólico nativo">
 </div>
 
 <div align="center"><sub><b>esquerda</b>: o disco projetado · <b>direita</b>: o disco nativo em 2D</sub></div>
@@ -228,10 +281,29 @@ desenho em que a propriedade do modelo aparece.
 
 #### O disco hiperbólico, nativo
 
-É a técnica do *hyperbolic browser* (Lamping, Rao & Pirolli, CHI 1995): **raiz no centro, cada
-nível num anel**, e cada nó com uma fatia angular proporcional ao **tamanho da sua subárvore** —
-não ao número de filhos. Senão um ramo de um filho com cem netos receberia a fatia de uma folha, e
-o desenho mentiria sobre onde está a massa do corpus.
+É a técnica do *hyperbolic browser* (Lamping, Rao & Pirolli, CHI 1995) e das implementações de
+referência ([`ItsNickBarry/hyperbolic-canvas`](https://github.com/ItsNickBarry/hyperbolic-canvas),
+[`okkindel/Hyperbolic`](https://github.com/okkindel/Hyperbolic)): cada filho nasce a uma distância
+hiperbólica **do pai**, por **translação de Möbius** `T_a(z) = (a+z)/(1+ā·z)`, num leque em torno da
+direção de saída do pai. É a isometria do modelo — **é ela que faz o desenho ser hiperbólico.**
+
+> **O defeito que precedeu isto, dito.** Antes eu media o ângulo de cada nó **a partir da origem**.
+> Isso põe pai e filho no mesmo raio, e **a geodésica entre dois pontos colineares com o centro é
+> uma reta**: o desenho saía como roda de raios, geometricamente correto e visualmente mudo, porque
+> quase nenhuma aresta curvava. Medido depois da correção, no mesmo grafo: **364 arcos contra 56
+> retas**, onde a proporção era inversa.
+
+O leque é repartido proporcionalmente ao **tamanho da subárvore** — não ao número de filhos. Senão
+um ramo de um filho com cem netos receberia a fatia de uma folha, e o desenho mentiria sobre onde
+está a massa do corpus.
+
+E a **curvatura deixa de ser fator de compressão**: ela é o que é no modelo, o **passo hiperbólico
+entre gerações**. Medido: passo 0,6 dá ρ mediano 0,537 e máximo 0,905; passo 1,3 dá 0,862 e 0,997;
+passo 2,2 dá 0,976 e 1,000 — com **zero nós fora do horizonte** nos três.
+
+**O clique alterna entre os dois** que alguém quer trocar: o padrão e o disco de verdade. O disco
+projetado continua em Shift+clique, porque é instrutivo ver a nuvem 3D levada ao disco — mas ele é
+uma terceira coisa, não um dos dois estados.
 
 **Sem câmera não há profundidade.** O que faz as vezes dela é a distância ao centro, que é o que o
 modelo de fato mede. E girar deixa de mover a câmera: passa a **rodar a volta**, que é o gesto certo
