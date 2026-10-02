@@ -1,6 +1,6 @@
-# okf/ — quatro páginas, como amostra
+# okf/ — sete páginas, como amostra
 
-**Isto é um spoiler, não o corpus.** O reino tem 202 páginas; aqui estão seis, escolhidas porque
+**Isto é um spoiler, não o corpus.** O reino tem 202 páginas; aqui estão sete, escolhidas porque
 mostram a *forma* sem entregar o conteúdo.
 
 | | página |
@@ -11,6 +11,7 @@ mostram a *forma* sem entregar o conteúdo.
 | 04 | o experimento em curso, e o que ele não verificou |
 | 05 | **a convergência informacional** — a doutrina que liga a pesquisa ao operacional |
 | 06 | **φιλομαθής ↔ φιλοπράκτωρ** — as duas disposições, e o gnômon entre elas |
+| 07 | **metafísica e o tribunal da razão** — onde Kant encaixa, e onde explicitamente não |
 
 **OKF** (*Open Knowledge Format*, v0.2) é o formato em que cada unidade de conhecimento desta casa é
 escrita. A regra que o define cabe numa linha:

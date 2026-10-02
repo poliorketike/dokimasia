@@ -172,6 +172,26 @@ And this is where **Law 2** stops being a moral and becomes engineering: negativ
 
 → **[the full page, with sources and what it does not claim](https://github.com/poliorketike/dokimasia/wiki/O-kybernetikos-e-o-poliorketikos)**
 
+
+### Metaphysics, and the tribunal — where Kant fits, and where he does not
+
+The *Critique of Pure Reason* opens with a **diagnosis**, not a thesis: metaphysics, the queen of all the sciences, had become a **Kampfplatz** — a battlefield of endless controversies. Not because the questions were bad, but because **there was no procedure for deciding what gets in**.
+
+Replace "metaphysics" with "a corpus produced by agents" and the diagnosis survives intact.
+
+Kant's answer is the part that matters here: he **does not answer the questions**. He institutes a **tribunal** — a `Gerichtshof` that secures reason's rightful claims and dismisses the groundless ones. *The content is not decided; the procedure is.* Which is what the Athenian dokimasía already was for public office, and what the gate is for pages.
+
+| Kant | here |
+|---|---|
+| *"thoughts without content are empty, intuitions without concepts are blind"* (A51/B75) | the OKF page requires **both fields**: a source without a claim is empty, a claim without a source is blind |
+| the dove that, feeling the air's resistance, imagines it would fly better in a vacuum (A5/B8-9) | the claim with no source: it feels freer, and it goes nowhere |
+| the limit — some things cannot be determined, and **saying so is a result** | the `NOT-DETERMINABLE` class. A system that lacks it **invents** |
+| the **antinomies** — thesis and antithesis equally demonstrated | the `contradicts` relation: two admitted pages may contradict, and the system **records it** instead of quietly picking one |
+
+**And where it does not fit — which matters more.** Nothing here is synthetic *a priori*: every page is *a posteriori*, with an addressable source. **Law 5** is Popper's, not Kant's — falsifiability is not the limit of possible experience, and a century and a half separates them. `NOT-DETERMINABLE` is **not** the thing-in-itself: the *Ding an sich* is inaccessible in principle, while the fifth class is contingent and dated, and changes the day the source turns up. And Kant's tribunal is **reason judging itself** — precisely what Law 2 forbids here, for engineering reasons rather than philosophical ones.
+
+→ **[the full page, with the minimal metaphysics declared](https://github.com/poliorketike/dokimasia/wiki/Kant-e-os-limites-do-admissivel)** · **[`okf/07`](okf/07-metafisica-e-o-tribunal-da-razao.md)**
+
 ---
 
 ## In motion, with sound

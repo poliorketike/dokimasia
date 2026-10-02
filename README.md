@@ -665,6 +665,26 @@ E é aqui que a **Lei 2** deixa de ser moral e vira engenharia: realimentação 
 → **[a página inteira, com as fontes e o que ela não afirma](https://github.com/poliorketike/dokimasia/wiki/O-kybernetikos-e-o-poliorketikos)**
 
 
+### Metafísica, e o tribunal — onde Kant encaixa, e onde não
+
+A *Crítica da Razão Pura* abre com um **diagnóstico**, não com uma tese: a metafísica, a rainha de todas as ciências, tinha virado um **Kampfplatz** — um campo de batalha de controvérsias sem fim. Não porque as perguntas fossem ruins, mas porque **não havia procedimento para decidir o que entra**.
+
+Troque "metafísica" por "corpus produzido por agentes" e o diagnóstico sobrevive inteiro.
+
+A resposta de Kant é a parte que importa aqui: ele **não responde às perguntas**. Institui um **tribunal** — um `Gerichtshof` que assegure as pretensões legítimas da razão e rejeite as infundadas. *Não se decide o conteúdo, decide-se o procedimento.* É o que a dokimasía ateniense já era para cargos públicos, e o que o portão é para páginas.
+
+| Kant | aqui |
+|---|---|
+| *"pensamentos sem conteúdo são vazios; intuições sem conceitos são cegas"* (A51/B75) | a página OKF exige **os dois campos**: fonte sem afirmação é vazia, afirmação sem fonte é cega |
+| a pomba que, sentindo a resistência do ar, imagina voar melhor no vácuo (A5/B8-9) | a afirmação sem fonte: parece mais livre, e não vai a lugar nenhum |
+| o limite — há o que não se pode determinar, e **dizê-lo é resultado** | a classe `NAO_DETERMINAVEL`. Um sistema que não a tem **inventa** |
+| as **antinomias** — tese e antítese igualmente demonstradas | a relação `contradiz`: duas páginas admitidas podem se contradizer, e o sistema **registra** em vez de escolher calado |
+
+**E onde não encaixa — que importa mais.** Nada aqui é sintético *a priori*: toda página é *a posteriori*, com fonte endereçável. A **Lei 5** é de Popper, não de Kant — falsificabilidade não é o limite da experiência possível, e os separa um século e meio. `NAO_DETERMINAVEL` **não** é a coisa-em-si: o *Ding an sich* é inacessível em princípio, e a quinta classe é contingente e datada, muda no dia em que a fonte aparece. E o tribunal de Kant é **a razão julgando a si mesma** — exatamente o que a Lei 2 proíbe aqui, por razão de engenharia e não de filosofia.
+
+→ **[a página inteira, com a metafísica mínima declarada](https://github.com/poliorketike/dokimasia/wiki/Kant-e-os-limites-do-admissivel)** · **[`okf/07`](okf/07-metafisica-e-o-tribunal-da-razao.md)**
+
+
 E os dois que não são camada de software, porque são **quem opera**:
 
 | | | |
